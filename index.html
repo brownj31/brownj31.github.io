@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -67,14 +33,38 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
-<body class="fullcontent">
+<body>
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#bacon-marmalade-burgers" id="toc-bacon-marmalade-burgers" class="nav-link active" data-scroll-target="#bacon-marmalade-burgers">Bacon Marmalade Burgers</a></li>
+  <li><a href="#baklava" id="toc-baklava" class="nav-link" data-scroll-target="#baklava">Baklava</a></li>
+  <li><a href="#chocolate-chip-bundt-cake" id="toc-chocolate-chip-bundt-cake" class="nav-link" data-scroll-target="#chocolate-chip-bundt-cake">Chocolate Chip Bundt Cake</a></li>
+  <li><a href="#cinnamon-rolls" id="toc-cinnamon-rolls" class="nav-link" data-scroll-target="#cinnamon-rolls">Cinnamon Rolls</a></li>
+  <li><a href="#crunchwraps" id="toc-crunchwraps" class="nav-link" data-scroll-target="#crunchwraps">Crunchwraps</a></li>
+  <li><a href="#doughnuts" id="toc-doughnuts" class="nav-link" data-scroll-target="#doughnuts">Doughnuts</a></li>
+  <li><a href="#dumplings" id="toc-dumplings" class="nav-link" data-scroll-target="#dumplings">Dumplings</a></li>
+  <li><a href="#fisn-n-chips" id="toc-fisn-n-chips" class="nav-link" data-scroll-target="#fisn-n-chips">Fisn ‘N’ Chips</a></li>
+  <li><a href="#mommiyama" id="toc-mommiyama" class="nav-link" data-scroll-target="#mommiyama">Mommiyama</a></li>
+  <li><a href="#oatmeal-chocolate-chip-cookies" id="toc-oatmeal-chocolate-chip-cookies" class="nav-link" data-scroll-target="#oatmeal-chocolate-chip-cookies">Oatmeal Chocolate Chip Cookies</a></li>
+  <li><a href="#orange-chicken" id="toc-orange-chicken" class="nav-link" data-scroll-target="#orange-chicken">Orange Chicken</a></li>
+  <li><a href="#philly-cheesesteaks" id="toc-philly-cheesesteaks" class="nav-link" data-scroll-target="#philly-cheesesteaks">Philly Cheesesteaks</a></li>
+  <li><a href="#pizza" id="toc-pizza" class="nav-link" data-scroll-target="#pizza">Pizza</a></li>
+  <li><a href="#stromboli" id="toc-stromboli" class="nav-link" data-scroll-target="#stromboli">Stromboli</a></li>
+  </ul>
+</nav>
+</div>
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -94,14 +84,417 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<section id="bacon-marmalade-burgers" class="level2">
+<h2 class="anchored" data-anchor-id="bacon-marmalade-burgers">Bacon Marmalade Burgers</h2>
+<p><img src="bacon_marmalade_burgers/burgers.jpeg" class="img-fluid" width="300"></p>
+<section id="ingredients" class="level3">
+<h3 class="anchored" data-anchor-id="ingredients">Ingredients</h3>
+<ul>
+<li><span class="math inline">\(2\)</span> lbs ground beef, portioned into <span class="math inline">\(8\)</span> burgers and seasoned with salt and pepper</li>
+<li><span class="math inline">\(1\)</span> lb thick cut bacon</li>
+<li><span class="math inline">\(1\)</span> sweet onion, slivered</li>
+<li><span class="math inline">\(\frac{1}{2}\)</span> cup brown sugar</li>
+<li><span class="math inline">\(8\)</span> sesame seed buns</li>
+<li><span class="math inline">\(1\)</span> pkg <a href="https://www.kroger.com/p/alouette-garlic-herb-soft-spreadable-cheese/0007144830014?fulfillment=PICKUP&amp;storecode=01600621&amp;&amp;cid=shp_adw_shopl_.FY23.01_search_ent_conv_lia_corelia_kroger_g_lia_shop_acq_evgn_ship_all_roas_deli&amp;gclid=Cj0KCQiA6rCgBhDVARIsAK1kGPJxmr-45Ox-J_PqG65vHUoXBX-TFPwEPjpnpYg4Po-GhQAFiM1vPgoaAnAeEALw_wcB&amp;gclsrc=aw.ds">Alouette cheese spread</a></li>
+</ul>
+</section>
+<section id="directions" class="level3">
+<h3 class="anchored" data-anchor-id="directions">Directions</h3>
+<ol type="1">
+<li>Cut bacon into small pieces and cook in a skillet over medium-high heat until crispy (about <span class="math inline">\(8\)</span> minutes).</li>
+<li>Remove bacon from skillet, but leave <span class="math inline">\(2\)</span> tbsp of bacon grease in the pan to cook the onions. Add slivered onions to the same skillet and cook for <span class="math inline">\(8\)</span> minutes.</li>
+<li>Reduce the heat to low so the onions can caramelize. Add <span class="math inline">\(\frac{1}{2}\)</span> cup brown sugar and continue to cook them until they completely caramelize (about <span class="math inline">\(20\)</span> minutes).</li>
+<li>Add the bacon bits back into the caramelized onions.</li>
+<li>Smash each burger portion very thin (I use the underside of a pan) and cook for about <span class="math inline">\(1\frac{1}{2}\)</span> minutes per side.</li>
+<li>Serve by putting a burger on a toasted bun and adding bacon marmalade and alouette cheese spread.</li>
+</ol>
+</section>
+</section>
+<section id="baklava" class="level2">
+<h2 class="anchored" data-anchor-id="baklava"><a href="https://www.youtube.com/watch?v=uxJe1cEr1Ts&amp;t=10s">Baklava</a></h2>
+<p><img src="baklava/baklava.jpeg" class="img-fluid" width="300"></p>
+<section id="ingredients-1" class="level3">
+<h3 class="anchored" data-anchor-id="ingredients-1">Ingredients</h3>
+<ul>
+<li><span class="math inline">\(1\)</span> package of frozen <a href="https://www.kroger.com/p/athens-phyllo-dough-pastry-sheets/0007219600107">phyllo dough</a></li>
+<li><span class="math inline">\(3\)</span> sticks unsalted butter, melted</li>
+</ul>
+<section id="filling" class="level4">
+<h4 class="anchored" data-anchor-id="filling">Filling</h4>
+<ul>
+<li><span class="math inline">\(2\frac{3}{4}\)</span> cups walnuts, crushed</li>
+<li><span class="math inline">\(1\)</span> tbsp cinnamon</li>
+<li><span class="math inline">\(1\)</span> tsp allspice</li>
+<li><span class="math inline">\(\frac{1}{4}\)</span> tsp nutmeg</li>
+</ul>
+</section>
+<section id="syrup" class="level4">
+<h4 class="anchored" data-anchor-id="syrup">Syrup</h4>
+<ul>
+<li><span class="math inline">\(\frac{1}{2}\)</span> cup white sugar</li>
+<li><span class="math inline">\(1\)</span> cup water</li>
+<li><span class="math inline">\(\frac{1}{2}\)</span> tsp salt</li>
+<li><span class="math inline">\(1\)</span> cup honey</li>
+</ul>
+</section>
+</section>
+<section id="directions-1" class="level3">
+<h3 class="anchored" data-anchor-id="directions-1">Directions</h3>
+<ol type="1">
+<li>Preheat oven to <span class="math inline">\(400^\circ F\)</span>.</li>
+<li>Brush the bottom of a <span class="math inline">\(9 \times 13\)</span> inch baking dish with melted butter.</li>
+<li>Make the filling by mixing <span class="math inline">\(2\frac{3}{4}\)</span> cups walnuts, <span class="math inline">\(1\)</span> tbsp cinnamon, <span class="math inline">\(1\)</span> tsp allspice, and <span class="math inline">\(\frac{1}{4}\)</span> tsp nutmeg until thoroughly combined.</li>
+<li>Add <span class="math inline">\(1\)</span> sheet of phyllo dough to the baking dish and brush the top of it with butter. Repeat this until there are <span class="math inline">\(14\)</span> sheets of dough stacked on top of each other.</li>
+<li>Add the walnut filling on top of the <span class="math inline">\(14^{\text{th}}\)</span> sheet of dough. Add a little bit of butter on top of the filling.</li>
+<li>Add <span class="math inline">\(14\)</span> more sheets of phyllo dough on top of the filling, and brush each with butter.</li>
+<li>Cut into rectangles.</li>
+<li>Bake for <span class="math inline">\(30-35\)</span> minutes.</li>
+<li>While the baklava is in the oven, heat a saucepan over medium high heat.</li>
+<li>To the saucepan, add <span class="math inline">\(\frac{1}{2}\)</span> cup white sugar, <span class="math inline">\(1\)</span> cup water, <span class="math inline">\(\frac{1}{2}\)</span> tsp salt, and <span class="math inline">\(1\)</span> cup honey.</li>
+<li>Let the syrup boil, and reduce the heat to medium. Then let it reduce for <span class="math inline">\(5-7\)</span> minutes until it reaches a very light syrupy consistency.</li>
+<li>When the dough is finished baking, pour the syrup on top of the cooked baklava, and let it cool.</li>
+</ol>
+</section>
+</section>
+<section id="chocolate-chip-bundt-cake" class="level2">
+<h2 class="anchored" data-anchor-id="chocolate-chip-bundt-cake">Chocolate Chip Bundt Cake</h2>
+<p><img src="chocolate_chip_bundt_cake/chocolate_chip_bundt_cake.JPG" class="img-fluid" width="300"></p>
+<section id="ingredients-2" class="level3">
+<h3 class="anchored" data-anchor-id="ingredients-2">Ingredients</h3>
+<ul>
+<li><span class="math inline">\(4\)</span> eggs</li>
+<li><span class="math inline">\(1\)</span> <a href="https://www.kroger.com/p/duncan-hines-classic-yellow-cake-mix/0064420930749">package Duncan Hines yellow cake mix</a></li>
+<li><span class="math inline">\(1\)</span> <a href="https://www.kroger.com/p/jell-o-vanilla-instant-pudding-pie-filling-mix/0004300020433?searchType=default_search">small instant vanilla pudding</a></li>
+<li><span class="math inline">\(\frac{1}{2}\)</span> cup vegetable oil</li>
+<li><span class="math inline">\(1\)</span> cup water</li>
+<li><span class="math inline">\(\frac{1}{2}\)</span> <a href="https://www.walmart.com/ip/Baker-s-German-s-Sweet-Chocolate-Premium-Baking-Bar-with-48-Cacao-4-oz-Box/24183295?wmlspartner=wlpa&amp;selectedSellerId=101383980&amp;adid=2222222222724183295_101383980_149701828050_20615956507&amp;wl0=&amp;wl1=g&amp;wl2=c&amp;wl3=676757556947&amp;wl4=pla-2279635047967&amp;wl5=9007293&amp;wl6=&amp;wl7=&amp;wl8=&amp;wl9=pla&amp;wl10=757788859&amp;wl11=online&amp;wl12=24183295_101383980&amp;veh=sem&amp;gad_source=1&amp;gclid=EAIaIQobChMI27zSjMPiggMVUGNHAR0lpACyEAQYASABEgJzEfD_BwE">bar german chocolate</a> (<span class="math inline">\(4\)</span> oz)</li>
+<li><span class="math inline">\(6\)</span> oz semi-sweet chocolate chips</li>
+</ul>
+</section>
+<section id="directions-2" class="level3">
+<h3 class="anchored" data-anchor-id="directions-2">Directions</h3>
+<ol type="1">
+<li>Finely chop <span class="math inline">\(4\)</span> oz german chocolate bar.</li>
+<li>Mix all ingredients thoroughly in a large bowl.</li>
+<li>Bake in a greased bundt pan at <span class="math inline">\(325^\circ F\)</span> for <span class="math inline">\(1\)</span> hour.</li>
+<li>Dust with powdered sugar.</li>
+</ol>
+</section>
+</section>
+<section id="cinnamon-rolls" class="level2">
+<h2 class="anchored" data-anchor-id="cinnamon-rolls">Cinnamon Rolls</h2>
+<p><img src="cinnamon_rolls/cinnamon_rolls.jpeg" class="img-fluid" width="300"></p>
+<section id="ingredients-3" class="level3">
+<h3 class="anchored" data-anchor-id="ingredients-3">Ingredients</h3>
+<section id="dough" class="level5">
+<h5 class="anchored" data-anchor-id="dough">Dough</h5>
+<ul>
+<li><span class="math inline">\(1\)</span> loaf frozen <a href="https://rhodesbakenserv.com/white-bread-2/">bread dough</a>, thawed</li>
+</ul>
+</section>
+<section id="filling-1" class="level5">
+<h5 class="anchored" data-anchor-id="filling-1">Filling</h5>
+<ul>
+<li><span class="math inline">\(\frac{1}{2}\)</span> cup light brown sugar</li>
+<li><span class="math inline">\(\frac{1}{4}\)</span> cup white sugar</li>
+<li><span class="math inline">\(6\)</span> tbsp butter</li>
+<li><span class="math inline">\(2\)</span> tbsp cinnamon</li>
+</ul>
+</section>
+<section id="cream-cheese-icing" class="level5">
+<h5 class="anchored" data-anchor-id="cream-cheese-icing">Cream Cheese Icing</h5>
+<ul>
+<li><span class="math inline">\(2\)</span> oz Philadelphia cream cheese</li>
+<li><span class="math inline">\(3\)</span> tbsp butter</li>
+<li><span class="math inline">\(3\)</span> cups confectioners sugar (AKA powdered sugar)</li>
+<li><span class="math inline">\(6\)</span> tbsp milk</li>
+<li><span class="math inline">\(\frac{3}{4}\)</span> tsp vanilla extract</li>
+</ul>
+<p><strong>Note</strong>: This makes <strong>a lot</strong> of cream cheese icing.</p>
+</section>
+<section id="glaze-icing" class="level5">
+<h5 class="anchored" data-anchor-id="glaze-icing">Glaze Icing</h5>
+<ul>
+<li><span class="math inline">\(2\)</span> cups confectioners sugar (AKA powdered sugar)</li>
+<li><span class="math inline">\(4\)</span> tbsp melted butter</li>
+<li><span class="math inline">\(1\)</span> tsp vanilla extract</li>
+<li><span class="math inline">\(3-6\)</span> tbsp hot water</li>
+</ul>
+</section>
+</section>
+<section id="directions-3" class="level3">
+<h3 class="anchored" data-anchor-id="directions-3">Directions</h3>
+<ol type="1">
+<li>Thaw bread dough in refrigerator overnight (per instructions on package). Take it out of the refrigerator about an hour before using it so that it isn’t stiff.</li>
+<li>Roll dough into a flat rectangle.</li>
+<li>Combine filling ingredients in a large bowl, and spread evenly onto the flattened dough.</li>
+<li>Roll dough into a a cylinder and cut into <span class="math inline">\(1\)</span>” pieces. I like to do this by repeatedly cutting the pieces in half until they are about the right size.</li>
+<li>Bake at <span class="math inline">\(350^\circ F\)</span> for <span class="math inline">\(25\)</span> minutes.</li>
+<li>Immediately after coming out of the oven, cover with icing of choice from above.</li>
+</ol>
+</section>
+</section>
+<section id="crunchwraps" class="level2">
+<h2 class="anchored" data-anchor-id="crunchwraps">Crunchwraps</h2>
+<p><img src="crunchwraps/crunchwraps.jpeg" class="img-fluid" width="300"></p>
+<section id="ingredients-4" class="level3">
+<h3 class="anchored" data-anchor-id="ingredients-4">Ingredients</h3>
+<p><strong>Note</strong>: The ingredients can vary. This recipe has the ingredients I’ve used most often.</p>
+<ul>
+<li><span class="math inline">\(1\)</span> lb ground beef</li>
+<li><span class="math inline">\(1\)</span> package taco seasoning (I like Taco Bell brand)</li>
+<li><span class="math inline">\(12\)</span>” flour tortillas</li>
+<li>shredded cheese</li>
+<li>canned nacho cheese</li>
+<li>tostadas</li>
+<li>sour cream</li>
+<li>diced tomatoes (I like to use Roma, since they’re cheapest per pound)</li>
+<li>taco sauce</li>
+</ul>
+</section>
+<section id="directions-4" class="level3">
+<h3 class="anchored" data-anchor-id="directions-4">Directions</h3>
+<ol type="1">
+<li>Cook ground beef in a skillet over medium heat. Add taco seasoning at the end (per packet instructions).</li>
+<li>Heat nacho cheese ina small saucepan.</li>
+<li>Place ground beef in the ceter of a warmed tortilla (I microwave the tortillas for <span class="math inline">\(30\)</span> seconds to make them less likely to break).</li>
+<li>Add nacho cheese, taco sauce, sour cream, tomatoes then top with a tostada shell. Add shredded cheese. <strong>It is important that the shredded cheese is the last thing added, since it will be the glue that holds the crunchwrap together.</strong></li>
+<li>Fold the edges of the tortilla up around the tostada and shredded cheese.</li>
+<li>Cook the crunchwrap seam-side down for <span class="math inline">\(3\)</span> minutes. Then flip and cook an additional <span class="math inline">\(1\)</span> minute.</li>
+</ol>
+</section>
+</section>
+<section id="doughnuts" class="level2">
+<h2 class="anchored" data-anchor-id="doughnuts">Doughnuts</h2>
+<p><img src="doughnuts/doughnuts.jpeg" class="img-fluid" width="300"></p>
+<section id="ingredients-5" class="level3">
+<h3 class="anchored" data-anchor-id="ingredients-5">Ingredients</h3>
+<section id="dough-1" class="level5">
+<h5 class="anchored" data-anchor-id="dough-1">Dough</h5>
+<ul>
+<li><span class="math inline">\(1\)</span> loaf frozen <a href="https://rhodesbakenserv.com/white-bread-2/">bread dough</a>, thawed</li>
+<li>cinnamon sugar</li>
+</ul>
+</section>
+<section id="glaze" class="level5">
+<h5 class="anchored" data-anchor-id="glaze">Glaze</h5>
+<ul>
+<li><span class="math inline">\(2\)</span> cups confectioners sugar (AKA powdered sugar)</li>
+<li><span class="math inline">\(4\)</span> tbsp melted butter</li>
+<li><span class="math inline">\(1\)</span> tsp vanilla extract</li>
+<li><span class="math inline">\(3-6\)</span> tbsp hot water</li>
+</ul>
+</section>
+</section>
+<section id="directions-5" class="level3">
+<h3 class="anchored" data-anchor-id="directions-5">Directions</h3>
+<ol type="1">
+<li>Thaw bread dough in refrigerator overnight (per instructions on package). Take it out of the refrigerator about an hour before using it so that it isn’t stiff.</li>
+<li>Roll dough into a flat rectangle. Using a drinking glass, cut circles out of dough. Using the cap of a plastic disposable water bottle, cut out small holes in the middle of each doughnut.</li>
+<li>Roll scraps into a new flat rectangle and cut out more doughnuts until there is no dough left.</li>
+<li>Fill a pot with about <span class="math inline">\(2\)</span> inches of vegetable oil and heat to <span class="math inline">\(350^\circ F\)</span>. <strong>If the oil is too hot, the doughnuts will burn.</strong> Cook doughnuts for <span class="math inline">\(1-2\)</span> minutes per side, until golden brown. Cook in batches to avoid overcrowding the pot.</li>
+<li>Immediately after removing the doughnuts from the oil, dip in glaze, and add additional toppings of choice. I like to coat with cinnamon sugar.</li>
+</ol>
+</section>
+</section>
+<section id="dumplings" class="level2">
+<h2 class="anchored" data-anchor-id="dumplings">Dumplings</h2>
+<p><img src="dumplings/dumplings.jpeg" class="img-fluid" width="300"></p>
+<section id="ingredients-6" class="level3">
+<h3 class="anchored" data-anchor-id="ingredients-6">Ingredients</h3>
+</section>
+<section id="directions-6" class="level3">
+<h3 class="anchored" data-anchor-id="directions-6">Directions</h3>
+</section>
+</section>
+<section id="fisn-n-chips" class="level2">
+<h2 class="anchored" data-anchor-id="fisn-n-chips">Fisn ‘N’ Chips</h2>
+<p><img src="fish_n_chips/fish_n_chips.jpeg" class="img-fluid" width="300"></p>
+<section id="ingredients-7" class="level3">
+<h3 class="anchored" data-anchor-id="ingredients-7">Ingredients</h3>
+<ul>
+<li><span class="math inline">\(1\)</span> cup all-purpose flour, chilled</li>
+<li><span class="math inline">\(1\)</span> tsp baking powder</li>
+<li><span class="math inline">\(1\)</span> tsp salt</li>
+<li><span class="math inline">\(1\frac{1}{4}\)</span> cups <strong>VERY COLD</strong> light beer (I normally use Bud Light)</li>
+<li><span class="math inline">\(1\frac{1}{2}\)</span> lbs cod, haddock, or other white fish cut into strips (I normally use cod)</li>
+<li>oil for frying</li>
+</ul>
+</section>
+<section id="directions-7" class="level3">
+<h3 class="anchored" data-anchor-id="directions-7">Directions</h3>
+<ol type="1">
+<li>Combine <span class="math inline">\(1\)</span> cup all-purpose flour and <span class="math inline">\(1\)</span> tsp salt i a large bowl. Add <span class="math inline">\(1\frac{1}{4}\)</span> cups <strong>VERY COLD</strong> light beer and whisk until smooth. Use the batter immediately.</li>
+<li>Blot strips of fish with paper towels to remove excess moisture. Coat each piece of fish with flour and thoroughly coat them with beer batter.</li>
+<li>Fill a pot with <span class="math inline">\(1\)</span>” of oil and heat it to <span class="math inline">\(350^\circ F\)</span>.</li>
+<li>Fry the fish for about 3 minutes per side or until golden brown and crunchy.</li>
+</ol>
+</section>
+</section>
+<section id="mommiyama" class="level2">
+<h2 class="anchored" data-anchor-id="mommiyama">Mommiyama</h2>
+<p><img src="mommiyama/mommiyama.jpeg" class="img-fluid" width="300"></p>
+<section id="ingredients-8" class="level3">
+<h3 class="anchored" data-anchor-id="ingredients-8">Ingredients</h3>
+<section id="yum-yum-sauce" class="level4">
+<h4 class="anchored" data-anchor-id="yum-yum-sauce">Yum Yum Sauce</h4>
+<p><strong>Note</strong>: I normally double the yum yum sauce recipe.</p>
+<ul>
+<li><span class="math inline">\(1 \frac{1}{4}\)</span> cups mayonnaise</li>
+<li><span class="math inline">\(\frac{1}{4}\)</span> cup water</li>
+<li><span class="math inline">\(1\)</span> tbsp melted butter</li>
+<li><span class="math inline">\(1\)</span> tsp tomato paste</li>
+<li><span class="math inline">\(1\)</span> tsp white sugar</li>
+<li><span class="math inline">\(\frac{1}{2}\)</span> tsp garlic powder</li>
+<li><span class="math inline">\(\frac{1}{4}\)</span> tsp paprika</li>
+<li><span class="math inline">\(1\)</span> pinch cayenne pepper</li>
+</ul>
+</section>
+<section id="fried-rice" class="level4">
+<h4 class="anchored" data-anchor-id="fried-rice">Fried Rice</h4>
+<ul>
+<li><span class="math inline">\(1\)</span> cup rice</li>
+<li><span class="math inline">\(1\)</span> lb chicken tenderloin (don’t use breasts or thighs)</li>
+<li><span class="math inline">\(1\)</span> large zucchini</li>
+<li><span class="math inline">\(1\)</span> container of white mushrooms</li>
+<li>Soy sauce to taste</li>
+</ul>
+</section>
+</section>
+<section id="directions-8" class="level3">
+<h3 class="anchored" data-anchor-id="directions-8">Directions</h3>
+</section>
+</section>
+<section id="oatmeal-chocolate-chip-cookies" class="level2">
+<h2 class="anchored" data-anchor-id="oatmeal-chocolate-chip-cookies">Oatmeal Chocolate Chip Cookies</h2>
+<p><img src="oatmeal_chocolate_chip_cookie/cookie.jpeg" class="img-fluid" width="300"></p>
+<section id="ingredients-9" class="level3">
+<h3 class="anchored" data-anchor-id="ingredients-9">Ingredients</h3>
+<ul>
+<li><span class="math inline">\(\frac{1}{2}\)</span> lb unsalted butter (2 sticks)</li>
+<li><span class="math inline">\(\frac{3}{4}\)</span> cup + 1 tbsp white sugar</li>
+<li><span class="math inline">\(\frac{3}{4}\)</span> cup light brown sugar</li>
+<li><span class="math inline">\(2\)</span> eggs</li>
+<li><span class="math inline">\(1\frac{1}{4}\)</span> tsp vanilla extract</li>
+<li><span class="math inline">\(\frac{1}{4}\)</span> tsp lemon juice</li>
+<li><span class="math inline">\(2\frac{1}{4}\)</span> cup flour</li>
+<li><span class="math inline">\(\frac{1}{2}\)</span> cup rolled oats (or use flour if you don’t have oats)</li>
+<li><span class="math inline">\(1\)</span> tsp baking soda</li>
+<li><span class="math inline">\(1\)</span> tsp salt</li>
+<li><span class="math inline">\(1\)</span> pinch cinnamon</li>
+<li><span class="math inline">\(2\frac{2}{3}\)</span> cups Nestle Tollhouse semi-sweet chocolate chips</li>
+<li><span class="math inline">\(1\frac{3}{4}\)</span> cups chopped walnuts</li>
+</ul>
+<p><strong>Note</strong>: I normally skimp on the chocolate chips and walnuts</p>
+</section>
+<section id="directions-9" class="level3">
+<h3 class="anchored" data-anchor-id="directions-9">Directions</h3>
+<ol type="1">
+<li>Cream <span class="math inline">\(\frac{1}{2}\)</span> lb unsalted butter (2 sticks), <span class="math inline">\(\frac{3}{4}\)</span> cup + 1 tbsp white sugar, and <span class="math inline">\(\frac{3}{4}\)</span> cup light brown sugar until thoroughly combined. If you don’t have an electric mixer, it’s easiest to do this by cutting the butter into small cubes and using a wooden spoon to work it into the sugar.</li>
+<li>Add <span class="math inline">\(2\)</span> eggs, <span class="math inline">\(1\frac{1}{4}\)</span> tsp vanilla extract, and <span class="math inline">\(\frac{1}{4}\)</span> tsp lemon juice and mix until light and fluffy.</li>
+<li>Add <span class="math inline">\(2\frac{1}{4}\)</span> cup flour, <span class="math inline">\(\frac{1}{2}\)</span> cup rolled oats, <span class="math inline">\(1\)</span> tsp baking soda, <span class="math inline">\(1\)</span> tsp salt, and <span class="math inline">\(1\)</span> pinch cinnamon and stir to combine.</li>
+<li>Stir in <span class="math inline">\(2\frac{2}{3}\)</span> cups Nestle Tollhouse semi-sweet chocolate chips and <span class="math inline">\(1\frac{3}{4}\)</span> cups chopped walnuts.</li>
+<li>Portion dough with an ice cream scoop (about <span class="math inline">\(3\)</span> tbsp) and roll into tall cylinders. To make the dough less sticky, it is helpful to refrigerate it for <span class="math inline">\(30\)</span> minutes prior to portioning.</li>
+<li>Let portioned dough freeze overnight.</li>
+<li>Line a baking sheet with parchment paper. <strong>Do NOT use cooking spray. It will make the dough flatten too much.</strong></li>
+<li>Bake at <span class="math inline">\(300^\circ F\)</span> for <span class="math inline">\(22\)</span> minutes. Let cool for 30 minutes to allow cookies to set.</li>
+</ol>
+</section>
+</section>
+<section id="orange-chicken" class="level2">
+<h2 class="anchored" data-anchor-id="orange-chicken">Orange Chicken</h2>
+<p><img src="orange_chicken/orange_chicken.jpeg" class="img-fluid" width="300"></p>
+<section id="ingredients-10" class="level3">
+<h3 class="anchored" data-anchor-id="ingredients-10">Ingredients</h3>
+</section>
+<section id="directions-10" class="level3">
+<h3 class="anchored" data-anchor-id="directions-10">Directions</h3>
+</section>
+</section>
+<section id="philly-cheesesteaks" class="level2">
+<h2 class="anchored" data-anchor-id="philly-cheesesteaks">Philly Cheesesteaks</h2>
+<p><img src="philly_cheesesteaks/philly_cheesesteaks.jpeg" class="img-fluid" width="300"></p>
+<section id="ingredients-11" class="level3">
+<h3 class="anchored" data-anchor-id="ingredients-11">Ingredients</h3>
+<ul>
+<li><span class="math inline">\(1\)</span> pkg <a href="https://www.walmart.com/ip/Stehouwer-s-Beef-Sizzlers-16-oz/12444155?wmlspartner=wlpa&amp;selectedSellerId=0&amp;wl13=3792&amp;adid=2222222227712444155_117755028669_12420145346&amp;wmlspartner=wmtlabs&amp;wl0=&amp;wl1=g&amp;wl2=c&amp;wl3=501107745824&amp;wl4=pla-294505072980&amp;wl5=9014909&amp;wl6=&amp;wl7=&amp;wl8=&amp;wl9=pla&amp;wl10=8175035&amp;wl11=local&amp;wl12=12444155&amp;wl13=3792&amp;veh=sem_LIA&amp;gclid=Cj0KCQiA6rCgBhDVARIsAK1kGPLtGEpt4GcZP9BgH2pD2lhk87R74pOzj_f4mz5YEoeKXbJI4AgQBMcaAsEdEALw_wcB&amp;gclsrc=aw.ds">Stehouwer’s Beef Sizzlers</a> (<span class="math inline">\(16\)</span> oz)</li>
+<li>cheese (either provolone slices or <a href="https://www.kroger.com/p/cheez-whiz-original-cheese-dip/0002100062679?fulfillment=PICKUP&amp;storecode=01600621&amp;&amp;cid=shp_adw_shopl_.FY23.01_search_ent_conv_lia_corelia_kroger_g_lia_shop_acq_evgn_ship_all_roas_dairy+%26+eggs&amp;gclid=Cj0KCQiA6rCgBhDVARIsAK1kGPL4I8z0c4U9uIh-kwabKSiPF03P-3UaSNVWdPkaldM9C_ePT0Fj96UaAh4VEALw_wcB&amp;gclsrc=aw.ds">Cheez Whiz</a>)</li>
+<li><span class="math inline">\(1\)</span> sweet onion</li>
+<li><span class="math inline">\(1\)</span> pkg mushrooms</li>
+<li><span class="math inline">\(6\)</span> sturdy rolls (I like to use ciabatta)</li>
+<li>mayonnaise</li>
+</ul>
+</section>
+<section id="directions-11" class="level3">
+<h3 class="anchored" data-anchor-id="directions-11">Directions</h3>
+<ol type="1">
+<li>Cook beef sizzlers according to package instructions. If using provolone cheese, add once slice to each sizzler <span class="math inline">\(30\)</span> seconds before it is done cooking.</li>
+<li>Cook onions and mushrooms until tender. If using Cheez Whiz, add <span class="math inline">\(2\)</span> tbsp of Cheez Whiz to the onions and mushrooms after they are done cooking.</li>
+<li>Toast ciabatta roll. Add mayo, top with a beef sizzler, and add onions and mushrooms.</li>
+</ol>
+</section>
+</section>
+<section id="pizza" class="level2">
+<h2 class="anchored" data-anchor-id="pizza">Pizza</h2>
+<p><img src="pizza/pizza.jpeg" class="img-fluid" width="300"></p>
+<section id="ingredients-12" class="level3">
+<h3 class="anchored" data-anchor-id="ingredients-12">Ingredients</h3>
+<p><strong>Note</strong>: I often change the toppings. This recipe is for a pepperoni pizza.</p>
+<ul>
+<li><span class="math inline">\(1\)</span> loaf frozen <a href="https://rhodesbakenserv.com/white-bread-2/">bread dough</a>, thawed</li>
+<li><span class="math inline">\(2\)</span> tbsp butter</li>
+<li><span class="math inline">\(1\)</span> clove garlic, minced</li>
+<li>1 can of <a href="https://www.kroger.com/p/kroger-crushed-peeled-tomatoes/0001111081548?fulfillment=PICKUP&amp;storecode=01600621&amp;&amp;cid=shp_adw_ob.shopl_.FY23.01_search_ob_conv_ob_ourbrandslia_kroger_g_lia_shop_acq_evgn_ourbrandskro_all_roas_pantry&amp;gclid=Cj0KCQiA6rCgBhDVARIsAK1kGPJTC27H3CNUmDvO_c5MoTBXGexWol5TnGe6U_UR83V7j9LA5Ir96EcaAq5OEALw_wcB&amp;gclsrc=aw.ds">crushed tomatoes</a>. Get the smallest can you can find. I normally get 15 oz, and that is too much for <span class="math inline">\(1\)</span> pizza.</li>
+<li><span class="math inline">\(3\)</span> tbsp sugar</li>
+<li><span class="math inline">\(8\)</span> oz fresh mozzarella, sliced thick</li>
+<li><span class="math inline">\(8\)</span> oz pepperoni. I like to buy a stick and cut the pepperonis thick. That way they curl and get crispy in the oven.</li>
+</ul>
+</section>
+<section id="directions-12" class="level3">
+<h3 class="anchored" data-anchor-id="directions-12">Directions</h3>
+<ol type="1">
+<li>Thaw bread dough in refrigerator overnight (per instructions on package). Take it out of the refrigerator about an hour before using it so that it isn’t stiff.</li>
+<li>Spray a <span class="math inline">\(10\)</span>” cast iron skillet with cooking spray and form the dough to the shape of the skillet.</li>
+<li>To make pizza sauce add <span class="math inline">\(3\)</span> tbsp sugar to the can of crushed tomatoes.</li>
+<li>Spread sauce on dough, add mozzarella slices and pepperoni.</li>
+<li>Bake at <span class="math inline">\(500^\circ F\)</span> for 15 minutes. Then broil on high for 2 minutes until cheese is golden brown and pepperonis are crispy.</li>
+<li>Add garlic and <span class="math inline">\(2\)</span> tbsp butter to a bowl and melt in the microwave. Spread the garlic butter on the pizza crust.</li>
+</ol>
+</section>
+</section>
+<section id="stromboli" class="level2">
+<h2 class="anchored" data-anchor-id="stromboli">Stromboli</h2>
+<p><img src="stromboli/stromboli.jpeg" class="img-fluid" width="300"></p>
+<section id="ingredients-13" class="level3">
+<h3 class="anchored" data-anchor-id="ingredients-13">Ingredients</h3>
+<p><strong>Note</strong>: This makes one roll of Stromboli. I normally double the recipe and make 2.</p>
+<ul>
+<li><span class="math inline">\(1\)</span> loaf frozen <a href="https://rhodesbakenserv.com/white-bread-2/">bread dough</a>, thawed</li>
+<li><span class="math inline">\(8\)</span> oz pepperoni</li>
+<li><span class="math inline">\(6\)</span> oz mozzarella cheese slices</li>
+<li><span class="math inline">\(3\)</span> oz provolone cheese slices</li>
+<li><span class="math inline">\(1\)</span> tbsp Parmesan cheese</li>
+<li><span class="math inline">\(2\)</span> eggs (separate yolks from whites)</li>
+<li><span class="math inline">\(\frac{1}{2}\)</span> tsp garlic powder</li>
+<li><span class="math inline">\(1\)</span> tsp oregano (I normally use Italian seasoning, which has oregano)</li>
+<li><span class="math inline">\(\frac{1}{2}\)</span> tsp pepper</li>
+<li><span class="math inline">\(2\)</span> tbsp cooking oil</li>
+<li><span class="math inline">\(1\)</span> tsp parsley (dried from spice aisle)</li>
+<li>marinara sauce for dipping</li>
+</ul>
+</section>
+<section id="directions-13" class="level3">
+<h3 class="anchored" data-anchor-id="directions-13">Directions</h3>
+<ol type="1">
+<li>Thaw bread dough in refrigerator overnight (per instructions on package). Take it out of the refrigerator about an hour before using it so that it isn’t stiff.</li>
+<li>Roll bread dough into <span class="math inline">\(12\)</span>” by <span class="math inline">\(18\)</span>” rectangle. Line a baking sheet with parchment paper so the bottom of the Stromboli doesn’t burn.</li>
+<li>In a bowl, combine <span class="math inline">\(2\)</span> egg <strong>yolks</strong>, <span class="math inline">\(1\)</span> tbsp Parmesan cheese, <span class="math inline">\(\frac{1}{2}\)</span> tsp garlic powder, <span class="math inline">\(1\)</span> tsp oregano, <span class="math inline">\(\frac{1}{2}\)</span> tsp pepper, <span class="math inline">\(1\)</span> tsp parsley, <span class="math inline">\(2\)</span> tbsp cooking oil.</li>
+<li>Spread the spice and egg mixture (from previous step) onto the <span class="math inline">\(12\)</span>” by <span class="math inline">\(18\)</span>” rectangle of dough. Cover with <span class="math inline">\(3\)</span> oz provolone cheese slices, <span class="math inline">\(6\)</span> oz mozzarella cheese slices, and <span class="math inline">\(8\)</span> oz pepperoni.</li>
+<li>Roll into a cylinder and brush exterior with egg whites. Cut slits in the top of the rolled cylinder and top with oregano.</li>
+<li>Bake seam side down at <span class="math inline">\(350^{\circ}F\)</span> for <span class="math inline">\(30\)</span> minutes.</li>
+</ol>
+</section>
+</section>
 
 </main>
 <!-- /main column -->
@@ -342,4 +735,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="index_files/libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
