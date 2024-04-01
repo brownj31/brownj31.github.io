@@ -1,6 +1,7 @@
 # History files
 .Rhistory
 .Rapp.history
+.gitignore
 
 # Session Data files
 .RData
@@ -20,6 +21,7 @@
 
 # RStudio files
 .Rproj.user/
+brownj31.github.io.Rproj
 
 # produced vignettes
 vignettes/*.html
