@@ -37,6 +37,10 @@ smooth-scroll: true
 
 ```
 
+```{r child="gyros/gyros.qmd"}
+
+```
+
 ```{r child="mommiyama/mommiyama.qmd"}
 
 ```
