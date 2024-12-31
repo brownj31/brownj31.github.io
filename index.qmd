@@ -16,6 +16,9 @@ smooth-scroll: true
 ```{r child="chocolate_chip_bundt_cake/chocolate_chip_bundt_cake.qmd"}
 
 ```
+```{r child="chicken_marsala/chicken_marsala.qmd"}
+
+```
 
 ```{r child="cinnamon_rolls/cinnamon_rolls.qmd"}
 
@@ -62,5 +65,9 @@ smooth-scroll: true
 ```
 
 ```{r child="stromboli/stromboli.qmd"}
+
+```
+
+```{r child="tuscan_shrimp_pasta/tuscan_shrimp_pasta.qmd"}
 
 ```
